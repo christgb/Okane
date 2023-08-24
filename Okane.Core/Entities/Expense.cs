@@ -12,4 +12,6 @@ public class Expense
     
     public string  InvoiceUrl { get; set; }
 
+    public DateTime CreatedDate { get; set; } 
+
 }
