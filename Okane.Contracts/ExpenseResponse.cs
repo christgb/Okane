@@ -11,5 +11,7 @@ public class ExpenseResponse
     public required string Description { get; set; }
     
     public string? InvoiceUrl { get; set; }
+
+    public DateTime CreatedDate { get; set; } 
     
 }
