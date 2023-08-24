@@ -29,7 +29,8 @@ public class ExpensesService : IExpensesService
             Category = expense.Category,
             Amount = expense.Amount,
             Description = expense.Description,
-            InvoiceUrl = expense.InvoiceUrl
+            InvoiceUrl = expense.InvoiceUrl,
+            CreatedDate = expense.CreatedDate
         };
     }
 
@@ -39,6 +40,7 @@ public class ExpensesService : IExpensesService
             Amount = expense.Amount,
             Category = expense.Category,
             Description = expense.Description,
-            InvoiceUrl = expense.InvoiceUrl
+            InvoiceUrl = expense.InvoiceUrl,
+            CreatedDate = expense.CreatedDate
         });
 }
